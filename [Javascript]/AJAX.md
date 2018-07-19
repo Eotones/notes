@@ -24,7 +24,7 @@ $ajax({
 ```
 
 
-## XMLHttpRequest (ES2015)
+## XMLHttpRequest (ES5)
 
 ```javascript
 var request = new XMLHttpRequest();
