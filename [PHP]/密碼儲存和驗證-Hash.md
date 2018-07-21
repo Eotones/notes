@@ -66,7 +66,7 @@ bool password_verify ( string $password , string $hash )
 ## password_get_info()
 http://php.net/manual/zh/function.password-get-info.php
 
-//查看哈希值的相关信息
+//查看Hash值的相關信息
 ```php=
 array password_get_info ( string $hash )
 ```
@@ -74,7 +74,7 @@ array password_get_info ( string $hash )
 ## password_needs_rehash()
 http://php.net/manual/zh/function.password-needs-rehash.php
 
-//检查一个hash值是否是使用特定算法及选项创建的
+//檢查一個hash值是否是使用特定算法及選項創建的
 ```php=
 bool password_needs_rehash ( string $hash , int $algo [, array $options ] )
 ```
